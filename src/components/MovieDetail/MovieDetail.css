@@ -1,0 +1,24 @@
+.button2{
+    position:absolute;
+    top: 0;
+    right: 0;
+    border-radius: 5px;
+}
+
+.button1{
+    margin-top: 5px !important;
+
+    border-radius: 5px;
+}
+
+
+.button3{
+    margin-top: 5px !important;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.movie-image{
+    margin-top: 156px;
+
+}

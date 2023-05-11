@@ -1,0 +1,24 @@
+.new-movie-container{
+    display: flex;
+    /* background: linear-gradient(336deg, rgba(38,38,38,1) 9%, rgba(150,150,150,1) 96%);   */
+      flex-wrap: wrap;
+    justify-content: space-around;
+    gap:42px;
+    padding-top: 50px;
+    cursor: pointer;
+
+}
+
+.card1:hover{
+  transform: scale(1.1);
+}
+
+.youtube-video{
+  position: fixed;
+  top:150px;
+
+}
+
+.youtube-container{
+  
+}

@@ -1,0 +1,80 @@
+.movie-cards-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* gap:42px; */
+    /* margin-top: 50px; */
+}
+.movie-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:42px;
+    margin-top: 50px;
+    width: 80%;
+}
+
+.pop-up{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index: 10;
+    background-color: hsla(0, 0%, 0%, 0.734);
+}
+
+.pop-up-container{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 600px;
+    background-color: #dcd6d6;
+    border: 10px solid #262626cf;
+    border-radius: 5px;
+    font-size: 18px;
+    overflow-y: auto;
+    font-family: Cambria, Cochin, Georgia;
+    padding: 15px;
+    position: relative;
+
+}
+
+.pop-up-container 
+
+.movie-image{
+
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-top: 156px;
+
+    
+}
+
+.pop-up-container img{
+    width:200px;
+    height: 400px;
+    object-fit: contain;
+    
+}
+
+.banner-home{
+    padding: 50px 25px 25px 25px ;
+    padding-left: 50px;
+    width: 100vw;
+    background: rgb(6,30,84);
+    background: linear-gradient(3deg, rgba(6,30,84,1) 8%, rgba(0,0,0,1) 79%);
+    color: white;
+    font-family:serif; 
+    font-size: 15px;
+}
