@@ -27,9 +27,6 @@ function App(props) {
     setSearch(searchText);
   };
 
-  useEffect(() => {
-    console.log("movies", watchList);
-  }, [watchList]);
 
   return (
     <div className="App">
