@@ -28,7 +28,7 @@ function App(props) {
   };
 
   useEffect(() => {
-    console.log("jkg", watchList);
+    console.log("movies", watchList);
   }, [watchList]);
 
   return (
